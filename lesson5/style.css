@@ -1,0 +1,21 @@
+ /* Create an external CSS file and assign a green color to a class. */
+ .example {
+    color: green;
+}
+
+/* Create a gradient background color for an element in an external CSS file. */
+.gradient {
+    background: linear-gradient(to left, red, yellow);
+}
+
+/* Apply margin and padding on different sides for an element in an external CSS file. */
+.different {
+    margin-top: 10px;
+    padding-bottom: 90px;
+}
+
+/* Change margin-top and padding-bottom on hover. */
+.different:hover{
+    margin-top: 20px;
+    padding-bottom: 70px;
+}

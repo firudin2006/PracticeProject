@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .headings {
+            color:black;
+        }
+
+        /* Make all <h1> headings blue with internal CSS. */
+        h1 {
+            color:blue;
+        }
+
+        /* Make the <span> element turn orange when hovered. */
+        span:hover{
+            color: orange;
+        }
+
+        /* Make an element's color semi-transparent using opacity */
+        .paragraph {
+            color: red;
+            opacity: 0.5;
+        }
+
+        /* Make the overall background color of the page light gray with internal CSS. */
+        body {
+            background-color: lightgray;
+        }
+
+        /* Change the background color of an element to pink when hovered. */
+        .hover:hover {
+            color:pink;
+            background-color: white;
+        }
+
+        /* Center the element with internal CSS by setting margin: auto; width: 50%; . */
+        .margin {
+            margin: auto;
+            width: 50%;
+        }
+
+        /* To keep an element's size constant when its padding increases, apply box-sizing: border-box; */
+        .box {
+            width: 50px;
+            height: 20px;
+            padding: 20px;
+            border: 2px solid blue;
+            box-sizing: border-box;
+        }
+
+        /* Set the Arial font family to all <p> elements using internal CSS */
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* To center text, use text-align: center; . */
+        p {
+            text-align: center;
+        }
+
+        /* Apply text-transform to display all <h3> headings in uppercase. */
+        h3 {
+            text-transform: uppercase;
+        }
+
+        /* Use letter-spacing and word-spacing to adjust the spacing between text. */
+        p {
+            letter-spacing: 3px;
+            word-spacing: 2px;
+        }
+
+        /* Soften the edges of the button using internal CSS. */
+        button {
+            border-radius: 5px;
+        }
+
+        /* Make an element's border line dotted and red when hovered. */
+        p:hover {
+            border: 2px dotted red;
+        }
+
+        /* Add a shadow effect (box-shadow) to the element on hover. */
+        button:hover {
+            box-shadow: 10px 10px 8px 10px blue;
+        }
+
+        /* Apply a transition to make the color change smooth on hover. */
+        button {
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <h3>Example</h3>
+
+    <!-- Set the color of a <p> element used in an inline style to red. -->
+    <p style="color:red">Hello</p>
+
+    <!-- Make all <h1> headings blue with internal CSS. -->
+        <h1>H1</h1>
+        <h1>H1</h1>
+
+    <!-- Create an external CSS file and assign a green color to a class. -->
+
+    <div class="example">Example</div>
+
+    <!-- Make the <span> element turn orange when hovered. -->
+    <span>Span</span>
+
+    <!-- Make an element's color semi-transparent using opacity -->
+    <p class="paragraph">Paragraph</p>
+
+    <!-- Set a yellow background color for a <div> with an inline style. -->
+    <div style="background-color: yellow;">Background color</div>
+
+    <!-- Create a gradient background color for an element in an external CSS file. -->
+     <p class="gradient">Paragraph</p>
+
+     <!-- Change the background color of an element to pink when hovered. -->
+    <p class="hover">Pink when hover</p>
+
+    <!-- Use rgba to create a transparent background. -->
+     <div style="background-color: rgba(100, 100, 100, 0.5);">Transparent fon</div>
+
+     <!-- Headings -->
+     <h1 class="headings">11-15: Margin və Padding</h1>
+
+     <!-- Add both margin and padding to a <div> element inline. -->
+    <div style="padding: 10px; margin: 10px;">Div</div>
+
+    <!-- Center the element with internal CSS by setting margin: auto; width: 50%; . -->
+     <div class="margin">Margin</div>
+
+     <!-- Apply margin and padding on different sides for an element in an external CSS file. -->
+    <div class="different">Different</div>
+
+    <!-- To keep an element's size constant when its padding increases, apply box-sizing: border-box; . -->
+     <p class="box">Box-sizing</p>
+
+     <!-- Set a bold and large font to an <h2> element with inline style. -->
+    <h2 style="font-size: 50px; font-weight: bold;">H2</h2>
+
+    <!-- Add a black solid border to a <div> element with an inline style. -->
+    <div style="border: 2px solid black;">Hello</div>
+
+    <!-- Soften the edges of the button using internal CSS. -->
+     <button>Button</button>
+</body>
+</html>
